@@ -8,3 +8,4 @@ script_dir=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
 mkdir -p $HOME/.tmux/plugins/
 ln -s $script_dir/tpm $HOME/.tmux/plugins/tpm
 sudo apt-get install -y tmux
+$HOME/.tmux/plugins/tpm/scripts/install_plugins.sh
